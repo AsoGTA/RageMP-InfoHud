@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+	<link rel="stylesheet" href="./InfoHud.css" type="text/css" />
+	<link rel="stylesheet" href="./all.min.css" type="text/css" />
+	
+	<style>
+	
+	@font-face {
+    font-family: 'Gotham Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gotham Bold'), url('https://fonts.cdnfonts.com/s/14807/Gotham Bold.woff') format('woff');
+	}
+
+	</style>
+	
+	<script type="text/javascript" src="all.min.js"></script>
+	<script>
+	
+		container = [];
+		infoCount = 0;
+		curInfos = 0;
+		e_container = null;
+		
+		settings = 
+	
+		window.onload = function () {
+			e_container = document.getElementsByClassName("container")[0];
+		};
+		
+
+
+		function createInfo(icon, value, color, backgroundColorRGBA, image = "") {
+			infoCount++;
+			curInfos++;
+			container[infoCount] = '<div class="border" id="' + infoCount + '" style="background-image:url('+image+');background-color:rgba(' +  backgroundColorRGBA +');">' +
+					'<span class="' + icon + '" style="color:rgb(' + color + ')" id="' + infoCount + '-icon"></span><span class="value" id="' + infoCount + '-value">' + value + '</span>' +
+				'</div>';
+			
+			drawInfos();
+			
+			return infoCount; // id
+			
+		}
+		
+		
+		function drawInfos(){
+		
+			// initialize first
+			e_container.innerHTML = "";
+			str = "";
+			container.forEach(element => str += element);
+			e_container.innerHTML = str;
+		
+			// set bottom values
+			var j = 0;
+			for (let i = 1; i <= infoCount; i++) {
+				var el = document.getElementById(i);
+				if(el != null){
+					j++;
+					el.style.setProperty("bottom", 'calc(' + (j-1)*1.9 + '% + ' + (j-1)*25 + 'px + 5px)');
+				
+				}
+					
+			}
+		
+		}
+		
+		function deleteInfo(id){
+			if(parseInt(id) >= 0 && parseInt(id) <= infoCount)
+				var el = document.getElementById(id);
+				if(el != null){
+					container[id] = "";
+					el.remove();
+					curInfos--;
+				}
+					
+				
+			drawInfos();
+
+		}
+		
+		function setInfo(id, value){
+			if(parseInt(id) >= 0 && parseInt(id) <= infoCount)
+				var el = document.getElementById(id + "-value");
+				if(el != null){
+					el.innerHTML = value;
+				}
+		}
+		
+		
+	</script>
+</head>
+
+<body>
+	<div class="container">
+	</div>
+</body>
+
+</html>

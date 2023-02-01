@@ -1,0 +1,14 @@
+C:\RAGEMP\server-files\dotnet\resources\netcoreapp3.1\TestScript.deps.json
+C:\RAGEMP\server-files\dotnet\resources\netcoreapp3.1\TestScript.dll
+C:\RAGEMP\server-files\dotnet\resources\netcoreapp3.1\TestScript.pdb
+D:\asoka\vrojects\TestScript\obj\Debug\netcoreapp3.1\TestScript.csproj.AssemblyReference.cache
+D:\asoka\vrojects\TestScript\obj\Debug\netcoreapp3.1\TestScript.GeneratedMSBuildEditorConfig.editorconfig
+D:\asoka\vrojects\TestScript\obj\Debug\netcoreapp3.1\TestScript.AssemblyInfoInputs.cache
+D:\asoka\vrojects\TestScript\obj\Debug\netcoreapp3.1\TestScript.AssemblyInfo.cs
+D:\asoka\vrojects\TestScript\obj\Debug\netcoreapp3.1\TestScript.csproj.CoreCompileInputs.cache
+D:\asoka\vrojects\TestScript\obj\Debug\netcoreapp3.1\TestScript.csproj.CopyComplete
+D:\asoka\vrojects\TestScript\obj\Debug\netcoreapp3.1\TestScript.dll
+D:\asoka\vrojects\TestScript\obj\Debug\netcoreapp3.1\TestScript.pdb
+C:\RAGEMP\server-files\dotnet\resources\TestScript\netcoreapp3.1\TestScript.deps.json
+C:\RAGEMP\server-files\dotnet\resources\TestScript\netcoreapp3.1\TestScript.dll
+C:\RAGEMP\server-files\dotnet\resources\TestScript\netcoreapp3.1\TestScript.pdb

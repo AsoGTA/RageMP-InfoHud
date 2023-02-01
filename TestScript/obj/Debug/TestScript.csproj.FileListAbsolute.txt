@@ -1,0 +1,14 @@
+D:\asoka\vrojects\TestScript\obj\Debug\TestScript.csproj.AssemblyReference.cache
+D:\asoka\vrojects\TestScript\obj\Debug\TestScript.GeneratedMSBuildEditorConfig.editorconfig
+D:\asoka\vrojects\TestScript\obj\Debug\TestScript.AssemblyInfoInputs.cache
+D:\asoka\vrojects\TestScript\obj\Debug\TestScript.AssemblyInfo.cs
+D:\asoka\vrojects\TestScript\obj\Debug\TestScript.csproj.CoreCompileInputs.cache
+D:\asoka\vrojects\TestScript\obj\Debug\TestScript.csproj.CopyComplete
+D:\asoka\vrojects\TestScript\obj\Debug\TestScript.dll
+D:\asoka\vrojects\TestScript\obj\Debug\TestScript.pdb
+C:\RAGEMP\server-files\dotnet\resources\TestScript.deps.json
+C:\RAGEMP\server-files\dotnet\resources\TestScript.dll
+C:\RAGEMP\server-files\dotnet\resources\TestScript.pdb
+C:\RAGEMP\server-files\dotnet\resources\TestScript\TestScript.deps.json
+C:\RAGEMP\server-files\dotnet\resources\TestScript\TestScript.dll
+C:\RAGEMP\server-files\dotnet\resources\TestScript\TestScript.pdb

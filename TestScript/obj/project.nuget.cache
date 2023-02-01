@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jJoYVLkT9swvIg7Sj9oACgi5E9SYt2qSK0kyFP4L6NOJ1oOpo+gAqlzrUywpjh9Pd6tpSDEevaTXFPpxtsyxZw==",
+  "success": true,
+  "projectFilePath": "D:\\asoka\\vrojects\\TestScript\\TestScript.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asoka\\.nuget\\packages\\gtanetwork.api\\0.3.7\\gtanetwork.api.0.3.7.nupkg.sha512",
+    "C:\\Users\\asoka\\.nuget\\packages\\ragemp-bootstrapper\\1.1.3\\ragemp-bootstrapper.1.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
