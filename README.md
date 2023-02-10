@@ -1,6 +1,7 @@
 # RageMP-InfoHud
 This is a small script that adds some events to create info elements in player's screen.
 
+
 # Infos come with:
 
 - Fontawesome icons
@@ -28,3 +29,8 @@ client:showcefInfo(bool flag)
 client:reloadInfo()
 ```
 Info ids start from 1 and increase with each creation. Every id is unique and deleted info ids won't be used.
+
+
+<p align="center">
+  <img src="https://rage.mp/uploads/monthly_2023_02/Screenshot_1.png.972e824daf9350d5ab08326ab2a636da.png" />
+</p>
